@@ -1,0 +1,28 @@
+
+# Python environments
+venv/
+.venv/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset files (keep locally, do not upload to GitHub)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Secrets and local settings
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
