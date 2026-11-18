@@ -26,3 +26,4 @@ models/*
 # OS files
 .DS_Store
 Thumbs.db
+project_structure.txt
